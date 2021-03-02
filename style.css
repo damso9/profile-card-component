@@ -1,0 +1,37 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+ 
+}
+body {
+   background: url(./images/bg-pattern-top.svg) -300px -600px no-repeat,
+     url(./images/bg-pattern-top.svg) 600px 300px no-repeat;
+     background-color: #127481;
+     background-size: 1000px, 1000px;
+}
+.card-body img {
+    border-radius: 50%;
+    display: block;
+    border: 3px solid white;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+.card {
+    border-radius: 30px;
+    margin-top: 150px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+.card-body h5 {
+    font-weight: 700;
+}
+.card-body h5 span{
+    font-weight: 400;
+}
+.col {
+    text-align: center;
+}
+.col span {
+    font-size: .7em;
+    color: grey;
+}
